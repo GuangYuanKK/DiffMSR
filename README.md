@@ -21,3 +21,6 @@ bash train_S2.sh
 ```bash
 bash test.sh
 ```
+
+## Acknowledgements
+This code is built on  [BasicSR](https://github.com/XPixelGroup/BasicSR), [DiffIR](https://github.com/Zj-BinXia/DiffIR), and [SRFormer](https://github.com/HVision-NKU/SRFormer).
