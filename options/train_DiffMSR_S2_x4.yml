@@ -11,13 +11,9 @@ datasets:
   train:
     name: MCSR
     type: MCSRPairedDataset #PairedImageDataset
-    dataroot_gt: /mnt/e/CVPR2024/DiffIR-SRGAN/mri_data_complex/mc_brain/train
-    dataroot_lq: /mnt/e/CVPR2024/DiffIR-SRGAN/mri_data_complex/mc_brain/train
-    dataroot_mask: "/mnt/e/CVPR2024/DiffIR-SRGAN/mri_data_complex/dc_mask.mat"
-#    meta_info_file: datasets/meta_info/meta_info_DF2K_sub_pair.txt
-    # (for lmdb)
-    # dataroot_gt: datasets/DIV2K/DIV2K_train_HR_sub.lmdb
-    # dataroot_lq: datasets/DIV2K/DIV2K_train_LR_bicubic_X4_sub.lmdb
+    dataroot_gt: mri_data_complex/mc_brain/train
+    dataroot_lq: mri_data_complex/mc_brain/train
+    dataroot_mask: "/mri_data_complex/dc_mask.mat"
     filename_tmpl: '{}'
     io_backend:
       type: disk
