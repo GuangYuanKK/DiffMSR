@@ -15,7 +15,7 @@ datasets:
     type: MCSRPairedDataset #PairedImageDataset
     dataroot_gt: mri_data_complex/mc_brain/valid
     dataroot_lq: mri_data_complex/mc_brain/valid
-    dataroot_mask: "/mnt/e/CVPR2024/DiffIR-SRGAN/mri_data_complex/dc_mask.mat"
+    dataroot_mask: "mri_data_complex/dc_mask.mat"
     filename_tmpl: '{}'
     io_backend:
       type: disk
